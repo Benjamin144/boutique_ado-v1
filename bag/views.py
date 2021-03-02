@@ -36,7 +36,7 @@ def add_to_bag(request, item_id):
 
 
 def adjust_bag(request, item_id):
-    """ Adjust the quantity of the product to the amount """
+    """Adjust the quantity of the specified product to the specified amount"""
 
     quantity = int(request.POST.get('quantity'))
     size = None
