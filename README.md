@@ -43,3 +43,9 @@ We continually tweak and adjust this template to help give you the best experien
 --------
 
 Happy coding!
+
+
+
+
+
+var card = elements.create('card', 
